@@ -59,8 +59,9 @@ const App = () => {
             <p>See Pricing</p>
           </button> */}
           <a
+            target={"_blank"}
             className="hover:bg-zinc-100 border-2 text-black px-6 text-black py-3 rounded-md mt-5"
-            href="mailto:24code.apps@gmail.com"
+            href="https://forms.gle/tNqYzXqhQaZAdsmN7"
           >
             Contact Us Now
           </a>

@@ -1,5 +1,6 @@
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/900.css";
+import "@fontsource/allura";
 
 import "../styles/globals.css";
 
@@ -33,7 +34,7 @@ const Header = () => (
         src="/android-chrome-512x512.png"
         alt=""
       />
-      <p className="ml-2 font-bold">24code.in</p>
+      <p className="ml-2 text-md">24code.in</p>
     </Link>
     {/* <div className="flex items-center">
   <p className="cursor-pointer hover:underline">ShowCase</p>
@@ -45,9 +46,13 @@ const Header = () => (
   <p className="cursor-pointer hover:underline">Articles</p>
 </div> */}
     <div className="flex">
-      <p className="text-sm cursor-pointer border-2 px-4 rounded-md py-2 hover:bg-zinc-100">
+      <a
+        target={"_blank"}
+        href="https://forms.gle/tNqYzXqhQaZAdsmN7"
+        className="text-sm cursor-pointer border-2 px-4 rounded-md py-2 hover:bg-zinc-100"
+      >
         Get Started
-      </p>
+      </a>
     </div>
   </div>
 );
