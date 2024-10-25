@@ -1,4 +1,3 @@
-# adding this line as a dummy commit for second time
 import Head from "next/head";
 import Link from "next/link";
 import {
